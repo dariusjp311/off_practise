@@ -5,8 +5,7 @@ const messages = {
 };
 
 function generateMessage(){
-    randNum = Math.floor(Math.random() * 5)
-    console.log(randNum)
+    randNum = Math.floor(Math.random() * 4)
     console.log(messages.message1[randNum])
     console.log(messages.message2[randNum])
     console.log(messages.message3[randNum])
